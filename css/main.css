@@ -1,0 +1,32 @@
+
+
+
+        #content{
+            margin: 0 auto;
+            width: 50%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            display: grid;
+            grid-template-columns:30% 70%;
+            background-color: rgb(6, 6, 98);
+            color: white;
+            font-size: 24pt;
+            
+            text-align:center;
+            align-items:center;
+        
+        }
+        main{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        footer{background-color: rgb(6, 6, 98);
+            color: white;
+            text-align:center;
+
+
+        }
+        #dateDiv{
+            color:yellow;
+        }
+    
