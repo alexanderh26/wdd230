@@ -1,0 +1,121 @@
+
+    
+
+h1, p {margin: 0 2 vw;}
+#content{
+    font-size: 15pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+logo img{
+    display:flex;
+    max-width:75%;}
+header img{
+
+    border-radius: 20px;
+    
+    
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;    
+    align-items: center;
+    background-color:gray;
+    border-radius:20px;}
+
+    header h1{    
+    display:none;
+    background-color:rgb(1,31,92);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    color: white;
+    border: 2px rgb(250, 250, 250) solid;
+    border-radius: 20px;
+   
+    }
+    .social {display:flex;
+        margin-right: 1.5rem;
+    }
+    
+   
+
+
+nav button{
+
+    
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+
+}
+nav{
+    display:flex;
+    width:100%;
+    background-color: rgb(207, 235, 245);
+    margin: 0 auto;
+    text-align: center;    
+    color: white;
+    padding: 1rem;
+    margin: .1rem;    
+    border: 2px black solid;
+    border-radius: 30px;}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+nav ul li a{
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration:none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    
+
+}
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul {display: none;}
+nav ul.open {display:block;}
+
+#hamburgerButton span:nth-child(1) {display: block;}
+#hamburgerButton span:nth-child(2) {display:none;}
+
+
+#hamburgerButton.open span:nth-child(1){display: none;}
+#hamburgerButton.open span:nth-child(2){display: block;}
+
+    main{
+        
+        padding:20px;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(4, 10rem) ;
+        
+    }
+    
+
+
+footer{
+    background-color: rgb(1, 31, 92);
+    color: white;
+    text-align: center;
+    padding: .5rem;    
+    border: 5px black solid;
+}

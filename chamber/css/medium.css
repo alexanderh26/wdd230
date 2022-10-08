@@ -1,0 +1,102 @@
+@media only screen and (min-width:35rem){
+    h1, p {margin: 0 2 vw;}
+    logo img{max-width:85%;}
+    
+
+    
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+
+}
+nav{
+    background-color: rgb(207, 235, 245);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+nav ul li a{
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration:none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+
+}
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul {display: none;}
+nav ul.open {display:block;}
+header h1{    
+    display:block;
+    max-width:50%;
+    padding:8px;
+}
+
+#hamburgerButton span:nth-child(1) {display: block;}
+#hamburgerButton span:nth-child(2) {display:none;}
+
+
+#hamburgerButton.open span:nth-child(1){display: none;}
+#hamburgerButton.open span:nth-child(2){display: block;}
+.wrapper{
+        
+    padding:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    grid-auto-rows: minmax(100px,auto);
+}
+.hero{
+    grid-column:1/2;
+grid-row:1/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;
+}
+.news{grid-column:1/2;
+grid-row:2/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;}
+.spot1{grid-column:1/2;
+grid-row:3/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;}
+.spot2{grid-column:2/2;
+grid-row:3/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;}
+.weather{grid-column:1/2;
+grid-row:4/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;}
+
+.event{grid-column:1/2;
+grid-row:5/5;
+background-color:rgb(241, 233, 224);
+border-radius:10px;
+border-color: black;
+padding:10px;
+}
+}
