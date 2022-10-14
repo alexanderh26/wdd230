@@ -105,10 +105,10 @@ nav ul.open {display:block;}
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1 fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    grid-template-rows: repeat(5, 20 rem);
-    padding:.5 rem;
+    grid-template-rows: repeat(5, 20rem);
+    padding:.5rem;
   }
     
     .hero{
