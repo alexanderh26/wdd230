@@ -51,7 +51,7 @@ header h1{
 
 #hamburgerButton.open span:nth-child(1){display: none;}
 #hamburgerButton.open span:nth-child(2){display: block;}
-
+/*script*/
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -61,6 +61,8 @@ header h1{
   }
     
     .hero{
+        background-image: url("/Users/alexanderholloway/Desktop/School stuff/WDD230/wdd230-1/chamber/images/town.jpeg");
+    background-size:cover;
         grid-column:1/4;
         grid-row:1;
         background-color:rgb(241, 233, 224);

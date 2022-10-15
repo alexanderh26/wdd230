@@ -1,6 +1,6 @@
 const today1 = new Date();
 
-if (today1.getDay() == 4){
+if (today1.getDay() == 1 || today1.getDay()==2 ){
   document.querySelector("header p").style.display='block';
 }
 

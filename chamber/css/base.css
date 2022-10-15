@@ -102,7 +102,7 @@ nav ul.open {display:block;}
 
 #hamburgerButton.open span:nth-child(1){display: none;}
 #hamburgerButton.open span:nth-child(2){display: block;}
-
+/*script*/
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,14 +111,20 @@ nav ul.open {display:block;}
     padding:.5rem;
   }
     
-    .hero{
+    .hero{ 
+        background-image: url("/Users/alexanderholloway/Desktop/School stuff/WDD230/wdd230-1/chamber/images/town.jpeg");
+    background-size:cover;
     grid-column:1/4;
     grid-row:1;
     background-color:rgb(241, 233, 224);
     border-radius:10px;
     border-color: black;
     padding:10px;
+    
     }
+   
+    
+    
     .news{grid-column:1/4;
     grid-row:2;
     background-color:rgb(241, 233, 224);
