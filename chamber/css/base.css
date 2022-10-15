@@ -112,7 +112,7 @@ nav ul.open {display:block;}
   }
     
     .hero{ 
-        background-image: url("/Users/alexanderholloway/Desktop/School stuff/WDD230/wdd230-1/chamber/images/town.jpeg");
+        background-image: url("https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1600");
     background-size:cover;
     grid-column:1/4;
     grid-row:1;
