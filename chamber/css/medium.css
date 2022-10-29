@@ -146,4 +146,31 @@ header h1{
         .footerText{grid-column:2;
         grid-row:1;}
         .logo2{grid-column:1;grid-row:1;}
+}.picture1:hover{
+    filter:blur(10px);
+
+}.picture2:hover{
+    filter:blur(10px);
+
+}.picture3:hover{
+    filter:blur(10px);
+
+}.picture4:hover{
+    filter:blur(10px);
+
+}.picture5:hover{
+    filter:blur(10px);
+
+}.picture6:hover{
+    filter:blur(10px);
+
+}.picture7:hover{
+    filter:blur(10px);
+
+}.picture8:hover{
+    filter:blur(10px);
+
+}.picture9:hover{
+    filter:blur(10px);
+
 }
