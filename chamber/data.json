@@ -1,0 +1,87 @@
+[
+    {"name":"Rexburg Rapids",
+    "address":"50 W 2nd N, Rexburg, ID 83440",
+    "phone":"2083722490",
+    "website": "https://www.rexburg.com/view/water/water%20park%20-%20rexburg%20rapids/",
+    "image": "images/directory/rexRapids.jpeg"
+    },
+    {"name":"Mike's Music",
+    "address":"54 E Main St, Rexburg, ID 83440",
+    "phone":"(208) 356-3335",
+    "website": "http://www.mikesmusicusa.com/",
+    "image": "images/directory/mikesMusic.png"
+
+    },
+    {"name":"Original Thai",
+    "address":"10 E Main St, Rexburg, ID 83440",
+    "phone":"(208) 359-9660",
+    "website": "https://m.facebook.com/Original-Thai-145386615495273/",
+    "image": "images/directory/originalThai.jpeg"
+
+    },
+    {"name":"Chesboro's",
+    "address":"257 N 2nd E St, Rexburg, ID 83440",
+    "phone":"(208) 359-1900",
+    "website": "https://www.chesbroretail.com/",
+    "image": "images/directory/chesboro.jpeg"
+
+    },
+    {"name":"Righteous Slice",
+    "address":"175 W. 200 S#100, Rexburg, ID 83440",
+    "phone":"1234567891",
+    "website": "https://www.righteousslice.com/",
+    "image": "images/directory/righteousSlice.jpeg"
+
+    },
+    {"name":"Dudez Chevron",
+    "address":"279 N 2nd E, Rexburg, ID 83440",
+    "phone":"(208) 356-4991",
+    "website": "hhttps://www.dudezchevron.com/",
+    "image": "images/director/dudez.png"
+
+    },
+    {"name":"Broulim's",
+    "address":"124 W Main St, Rexburg, ID 83440",
+    "phone":"(208) 356-4651",
+    "website": "https://www.broulims.com/locations/rexburg",
+    "image": "images/directory/broulims.jpeg"
+
+    },
+    {"name":"Soup For You?",
+    "address":"52 College Ave, Rexburg, ID 83440",
+    "phone":"1234567891",
+    "website": "https://soup-for-you-llc.business.site/",
+    "image": "images/directory/soup.jpeg"
+
+    },
+    {"name":"Subway",
+    "address":"383 S 2nd St W",
+    "phone":"(208) 359-9054",
+    "website": "https://order.subway.com/en-US",
+    "image": "images/directory/subway.png"
+
+    },
+    {"name":"Subway",
+    "address":"321 N 2nd E, Rexburg, ID 83440",
+    "phone":" (208) 356-8234",
+    "website": "https://order.subway.com/en-US",
+    "image": "images/directory/subway.png"
+
+    },
+    {"name":"Subway",
+    "address":"944 University Blvd, Rexburg, ID 83440",
+    "phone":"(208) 356-4918",
+    "website": "https://order.subway.com/en-US",
+    "image": "images/directory/subway.png"
+
+    },
+    {"name":"Subway",
+    "address":"1450 N 2nd E, Rexburg, ID 83440",
+    "phone":"(208) 359-0782",
+    "website": "https://order.subway.com/en-US",
+    "image": "images/directory/subway.png"
+
+    }
+    
+    
+]
