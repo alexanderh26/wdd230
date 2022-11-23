@@ -26,9 +26,9 @@
             <button id="hamburgerButton"><span>&#9776;</span> <span id="x">x</span></button>
     
             <ul id ="primaryNav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li class="active"><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -39,8 +39,15 @@
         </div>
         <div class="date"></div>
     </header>
-    <main>
-        <div class="cards"></div>
+    <main class ="directory">
+        <div class="icons">
+            <button id="grid"><img src="images/directory/card.png" alt="icon for directory to be shown in grid view"></button>
+            <button id="list"><img src="images/directory/list.png" alt="icon for directory to be shwon in list view"></button>
+        </div>
+        <div class ="displayItems">
+            <div class ="cards"></div>
+            <table class="table"></table>
+        </div>
     </main>
     <footer>
         <div class="footerText">
