@@ -1,4 +1,4 @@
-const requestURL = "https://alexanderh26.github/chamber/data.json"
+const requestURL = "https://alexanderh26.github/wdd230/chamber/data.json"
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
@@ -76,7 +76,7 @@ function displayTable (business) {
    website.innerHTML = `<a href="${business.website}">Website</a>`;
 
    document.querySelector('table').appendChild(tableRow);
-   
+
 
 
 }
