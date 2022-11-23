@@ -1,4 +1,4 @@
-const requestURL = "https://alexanderh26.github/wdd230/chamber/data.json"
+const requestURL = 'https://alexanderh26.github.io/wdd230/chamber/data.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
