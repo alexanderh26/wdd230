@@ -1,4 +1,4 @@
-const requestURL = "/Users/alexanderholloway/Desktop/School stuff/WDD230/wdd230-1/chamber/data.json"
+const requestURL = "https://alexanderh26.github/chamber/data.json"
 function displayBusinesses(business){
     let card = document.createElement ('section');
     let h2 = document.createElement('h2');
