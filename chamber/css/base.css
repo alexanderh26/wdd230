@@ -351,3 +351,97 @@ tr:nth-child(odd) {
 tr td{
     display: block;
 }
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.membershipLevels {
+    margin: 10px;
+    background-color:whitesmoke;
+    text-align:left;
+
+}
+
+.form h1 {
+    display: block;
+    text-align: center;
+}
+
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    color: black;
+}
+
+.form form input, .form textarea {
+    font-size: 1em;
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* font-size: 1.5em; */
+    font-weight: 500;
+    background-color: #e5e5e5;
+}
+
+.form textarea {
+    height: 250px;
+}
+
+.form form label {
+    /* font-size: 1.5em; */
+    font-weight: 700;
+    text-align: left;
+    margin: 5px;
+}
+
+label, textarea, select{
+    display: inline-block;
+    /* float: left; */
+    clear: left;
+    width: 450px;
+    text-align: left;
+}
+
+.form #submit {
+    background-color: #06005f;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    
+    z-index: 5;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.form #submit:hover {
+    background-color: #11d5fc;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.thanks h1, .board h1 {
+    display: block;
+}
