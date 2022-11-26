@@ -462,10 +462,10 @@ label, textarea, select{
 }
 
 .directors img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    
     margin: 10px;
 }
 
@@ -473,7 +473,7 @@ label, textarea, select{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     margin: auto;
