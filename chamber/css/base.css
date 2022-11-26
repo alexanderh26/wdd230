@@ -389,7 +389,7 @@ tr td{
     border-radius: 10px;
     
     font-weight: 500;
-    background-color: #e5e5e5;
+    background-color: whitesmoke;
 }
 
 .form textarea {
@@ -429,7 +429,7 @@ label, textarea, select{
 }
 
 .form #submit:hover {
-    background-color: #11d5fc;
+    background-color: aquamarine;
 }
 
 .thanks {
@@ -444,4 +444,15 @@ label, textarea, select{
 
 .thanks h1, .board h1 {
     display: block;
+}
+.contact{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding:50px;
+    color: black;
+    background-color:whitesmoke;
 }

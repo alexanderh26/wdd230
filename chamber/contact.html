@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Holloway's contact landing page for Chamber of Commerce Project">
+    <title>Chamber Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+<header>
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    <logo>
+    
+        <img src="images/United_States_Chamber_of_Commerce_Logo.jpeg" alt="Rexburg Chamber of Commerce logo with interlocking blue vectors">
+    
+    </logo>
+
+    <h1>Rexburg Chamber of Commerce </h1>
+    
+    <nav>
+        <button id="hamburgerButton"><span>&#9776;</span> <span id="x">x</span></button>
+
+        <ul id ="primaryNav">
+            <li class="active"><a href="https://alexanderh26.github.io/wdd230/chamber/index.html">Home</a></li>
+            <li><a href="https://alexanderh26.github.io/wdd230/chamber/discover.html">Discover</a></li>
+            <li><a href="https://alexanderh26.github.io/wdd230/chamber/directory.html">Directory</a></li>
+            <li><a href="https://alexanderh26.github.io/wdd230/chamber/join.html">Join</a></li>
+            <li><a href="https://alexanderh26.github.io/wdd230/chamber/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class= "social">
+        <img src="images/facebook.jpg" alt="small icon for Facebook link">
+        <img src="images/linkedin.jpg" alt="small icon for LinkedIn link">
+    </div>
+    <div class="date"></div>
+</header>
+<main>
+    <main class="contact">
+        <div class="form">
+            <h1>Contact Us</h1>
+            <form action="rate_course.html" method="GET" autocomplete="on">
+                <label for="name">
+                    Name
+                    <input type="text" id="name" name="name" required>
+                </label>
+        
+                <label for="email">
+                    Email
+                    <input type="email" id="email" name="email" required>
+                </label>
+        
+                <label for="message">
+                    Let us know what's on your mind! 
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </label>
+        
+                
+                <input type="submit" id="submit" value="Submit">
+        
+            </form>
+        </div>
+        <div class="directors">
+            <div>
+                <picture>
+                    <img src=""
+                         alt="President">
+                </picture>
+                <h2></h2>
+                <p>President</p>
+            </div>
+            <div>
+                <picture>
+                    <img src=""
+                        alt="Vice President">
+                </picture>
+                <h2></h2>
+                <p>Vice President</p>
+            </div>
+            <div>
+                <picture>
+                    <img src=""
+                         alt="Treasurer">
+                </picture>
+                <h2></h2>
+                <p>Treasurer</p>
+            </div>
+            <div>
+                <picture>
+                    <img src=""
+                        alt="Business Outreach">
+                </picture>
+                <h2></h2>
+                <p>Business Outreach</p>
+            </div>
+            <div>
+                <picture>
+                    <img src=""
+                       alt="Community Outreach">
+                </picture>
+                <h2></h2>
+                <p>Community Outreach</p>
+            </div>
+            <div>
+                <picture>
+                    <img src=""
+                         alt="Social Media Manager">
+                </picture>
+                <h2></h2>
+                <p>Social Media</p>
+            </div>
+        </div>
+</main>
+<footer>
+    <div class="footerText">
+    <h2>Rexburg Chamber of Commerce</h2>
+    <h3>123 Scripts Lane <br> Rexburg, ID 83440</h3></div>
+    <div class="logo2"><img src="images/United_States_Chamber_of_Commerce_Logo.jpeg" alt="Rexburg Chamber of Commerce logo with interlocking blue vectors"></div>
+    <div> &copy; <span></span> | Alex Holloway | Rexburg, ID, USA</div>
+    <div id="dateDiv">Last Updated: <span id="lastupdatedate"></span></div>
+    <p><span id="lastVisited"></span></p>
+
+</footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/weather.js"></script>
+</div>
+</body>
+
+</html>
