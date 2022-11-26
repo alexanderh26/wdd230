@@ -455,6 +455,7 @@ label, textarea, select{
     padding:50px;
     color: black;
     background-color:rgb(241, 233, 224);
+    border-radius:10px;
 }
 
 .directors {
