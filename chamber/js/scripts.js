@@ -33,7 +33,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 
 let lastVisited = window.localStorage.getItem("lastVisited");
 let lastVisitedDisplay = document.querySelector("#lastVisited");
