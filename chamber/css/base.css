@@ -454,7 +454,7 @@ label, textarea, select{
     margin: 50px auto;
     padding:50px;
     color: black;
-    background-color:whitesmoke;
+    background-color:rgb(241, 233, 224);
 }
 
 .directors {
@@ -470,6 +470,7 @@ label, textarea, select{
 }
 
 .directors {
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
