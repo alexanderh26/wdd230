@@ -456,3 +456,25 @@ label, textarea, select{
     color: black;
     background-color:whitesmoke;
 }
+
+.directors {
+    padding: 10px;
+}
+
+.directors img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.directors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
