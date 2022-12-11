@@ -33,7 +33,7 @@ function displayCards(temple) {
     let card = document.createElement('section');
 
     let image = document.createElement('img');
-    image.setAttribute('src', business.image);
+    image.setAttribute('src', temple.image);
     image.setAttribute('alt', '${temple.name} image');
     card.appendChild(image);
 
