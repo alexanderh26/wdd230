@@ -214,7 +214,8 @@ footer{display:grid;
     
 }
 #about{grid-column:1;
-grid-row:1;}
+grid-row:1;
+padding:15px;}
 #footMap{grid-column: 2;
 grid-row:1;}
 #footGMap{border:1px solid black;
