@@ -141,3 +141,72 @@ grid-row:1;}
 #footGMap{border:1px solid black;
     border-radius:10px;
     padding:10px;}
+/*temple*/
+.templeList #content {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .cards {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .cards section{
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 25px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+  }
+  .templeList h2, h1{
+    color: black;
+    text-align:center;
+
+  }
+  .templeList .cards img{
+    width: 250px;
+    height: 150px;
+  }
+  .templeList a{
+    color: black;
+  }
+  .templeList p:first-of-type{
+    font-style: italic;
+    font-size:0.75em;
+  }
+  .templeList .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+
+  }
+  .icons button{
+    background-color:white;
+  }
+  .icons button:hover{background-color:aquamarine;
+cursor: pointer;}
+
+.icons img{width:50px;}
+
+.templeList table{
+    width: 90%;
+border-collapse: collapse;
+margin: auto;
+overflow: hidden;
+}
+
+.templeList td{
+padding:10px;
+}
+
+tr:nth-child(odd) {
+background-color:#eee;
+}
+tr td{
+display: block;
+}
