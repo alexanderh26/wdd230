@@ -181,16 +181,17 @@ border-radius: 10px;
   .icons button{
     background-color:white;
   }
-  .icons button:hover{background-color:aquamarine;
+  .icons button:hover{background-color:#ffca28;
 cursor: pointer;}
 
 .icons img{width:50px;}
 
-.templeList table{
+.templeList table{display:none;
     width: 90%;
 border-collapse: collapse;
 margin: auto;
 overflow: hidden;
+height:100px;
 }
 
 .templeList td{
@@ -201,7 +202,8 @@ tr:nth-child(odd) {
 background-color:#eee;
 }
 tr td{
-display: block;
+display: none;
+height:100px;
 }
 /*footer*/
 footer{display:grid;
