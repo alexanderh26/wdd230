@@ -41,21 +41,40 @@ function displayCards(temple) {
     h2.textContent= temple.name;
     card.appendChild(h2);
 
+let addressTitle =document.createElement('h4');
+addressTitle.textContent="Address:";
+card.appendChild(addressTitle);
+
     let address = document.createElement('p');
     address.textContent=temple.address;
     card.appendChild(address);
+let phoneTitle=document.createElement('h4');
+phoneTitle.textContent="Phone:";
+card.appendChild(phoneTitle);
 
     let phone = document.createElement('p');
     phone.textContent = temple.phone;
     card.appendChild(phone);
 
+    let serviceTitle=document.createElement('h4');
+    serviceTitle.textContent="Services:";
+    card.appendChild(serviceTitle);
+
    let services = document.createElement('p');
    services.textContent = temple.services;
    card.appendChild(services);
 
+   let historyTitle=document.createElement('h4');
+historyTitle.textContent="History:";
+card.appendChild(historyTitle);
+
    let history = document.createElement('p');
    history.textContent = temple.history;
    card.appendChild(history);
+
+let closureTitle=document.createElement('h4');
+closureTitle.textContent="Closures:";
+card.appendChild(closureTitle);
 
    let closure = document.createElement('p');
    closure.textContent = temple.closure;
