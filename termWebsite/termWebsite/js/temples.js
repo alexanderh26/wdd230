@@ -12,13 +12,7 @@ async function getData (requestURL) {
             temples.forEach(temple => {
                 displayCards(temple);
             });
-            list.addEventListener('click', () => {
-                table.innerHTML='';
-                cards.innerHTML='';
-                temples.forEach(temple =>{
-                    displayTable(temple);
-                });
-            });
+            
             grid.addEventListener('click',()=>{
                 table.innerHTML='';
                 cards.innerHTML='';
