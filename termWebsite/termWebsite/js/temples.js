@@ -83,37 +83,6 @@ card.appendChild(closureTitle);
     document.querySelector('div.cards').appendChild(card);
 }
 
-function displayTable (temple) {
-    let tableRow = document.createElement('tr');
 
-    let name = document.createElement('td');
-    name.textContent = temple.name;
-    tableRow.appendChild(name);
-
-   let address = document.createElement('td');
-   address.textContent=temple.address;
-   tableRow.appendChild(address);
-
-   let phone = document.createElement('td');
-   phone.textContent = temple.phone;
-   tableRow.appendChild(phone);
-
-   let services = document.createElement('td');
-   services.textContent = temple.services;
-   tableRow.appendChild(services);
-
-   let history = document.createElement('td');
-   history.textContent = temple.history;
-   tableRow.appendChild(history);
-
-   let closure = document.createElement('td');
-   closure.textContent = temple.clsoure;
-   tableRow.appendChild(closure);
-
-   document.querySelector('table').appendChild(tableRow);
-
-
-
-}
 
 
