@@ -80,7 +80,8 @@ main{display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:10px;
     grid-template-rows: repeat(4,10rem);
-    padding:.5rem;}
+    padding:.5rem;
+height:fit-content;}
 #templeImgs{display:none;}
 
 #button{grid-row:1;
@@ -130,14 +131,16 @@ border-radius: 10px;
 }
 
 /*temple*/
-.templeList #content {
+.templeList{height: 3300px;
     width: 100%;
-    margin: auto;}
+    margin: auto;
+}
   .cards {
     display:flex;
-    flex-wrap: wrap;
+    flex-direction:column;
     text-align: center;
     justify-content: center;
+    
     
   }
   .cards section{
@@ -147,6 +150,9 @@ border-radius: 10px;
     text-align: center;
     width: 250px;
     margin: 20px;
+    height:fit-content;
+    
+    
   }
   .templeList h2, h1{
     color: black;
@@ -200,8 +206,10 @@ display: block;
 /*footer*/
 footer{display:grid;
     grid-template-columns: 100px, 100px;
-    grid-template-rows:50px, 50px;;
+    grid-template-rows:50px, 50px;
     background-color: #c62020;
+    
+    
 }
 #about{grid-column:1;
 grid-row:1;}
