@@ -1,0 +1,50 @@
+@media only screen and (min-width:70rem){
+    .title{text-indent:100px;}
+    
+    nav button{display:none;} 
+    nav ul#primaryNav{display: flex;
+        
+     margin-left: 2vw;
+     border-left: 1px solid rgba(0,0,0,0.3);
+    }
+ /*nav itms*/
+     nav ul li a{
+         border: none;
+         border-right: 1px solid rgba(0,0,0,0.3);
+     }
+
+    nav ul li a{
+        padding: 0.5rem 1rem;
+    }
+    main{display:grid;
+    grid-template-columns: repeat 3 1fr;
+grid-template-columns:repeat 3 1fr;}
+#button{grid-column:1;
+    grid-row:1;}
+    #services{grid-column:2;
+    grid-row:1/5;}
+    #services p{font-size:14pt;}
+    #templeImgs{grid-column:1;
+    grid-row:2/5;}
+    #map{grid-column: 3;
+    grid-row:2/4;
+    max-height:300px;
+    margin-top:45px;}
+    #gMap{max-height:fit-content;
+    margin-top:10px;}
+    .weather{grid-column: 3;
+    grid-row:1;
+    height:fit-content;}
+    .weather p{margin-top:-10px;}
+    #contact{grid-column: 3;
+    grid-row:4;}
+    #contact p{
+    margin-top:-10pt;}
+    #description-large{display:block;}
+    #description-small{display:none;}
+    #footMap{grid-column: 2;
+        grid-row:1;
+    margin-left: 600px;}
+    
+}
+

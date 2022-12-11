@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="Temple Inn and Suites booking website home page ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Temple Inn and Suites</title>
+    
+</head>
+<body>
+    <div id="content">
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="images/moroni.jpeg" alt="logo for Temple Inn and Suites">
+            </picture>
+        </div>
+        <div class= "title">
+        <h1>Temple Inn & Suites</h1>
+        </div>
+        <nav>
+            <button id="hamburgerButton"><span>&#9776;</span> <span id="x">x</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/index.html">Home</a></li>
+                <li> <a href="">Temple</a></li>
+                <li> <a href="">Reservation</a></li>
+                <li> <a href="">Services</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <picture>
+                <img src="images/facebook.jpg" alt="social media link for facebook">
+            </picture>
+            <picture>
+                <img src="images/linkedin.jpg" alt="social media link for linkedin">
+            </picture>
+        </div>
+        <div class="date"></div>
+    </header>
+    <main class="home">
+        
+            <button id="button">Reserve a Room Today!</button>
+           
+            
+        
+        <section id="templeImgs">
+            <div id="temple1">
+
+            </div>
+            <div id="temple2">
+                
+            </div>
+        </section>
+        <section id="services">
+<h2>The Portland Temple:</h2>
+<p id="description-large"> The following is from The Church of Jesus Christ of Latterday Saints: Rising elegantly among towering Douglas-fir trees, the six spires of the marble-clad Portland Oregon Temple create a beautiful sight for motorists traveling Oregon's I-5, situated about 8 miles south of downtown Portland in Lake Oswego. On the east side of the temple is a serene reflection pool sitting at the base of the main spire. A fountain on the west side replenishes an infinity pool. Visitors are welcome to walk among the gorgeous gardens that decorate the temple grounds and to obtain additional information at the public visitors' center that features films, displays, multimedia presentations, and a stunning reproduction of Thorvaldsen's Christus statue. </p>
+<p id="description-small"> The Portland Oregon Temple is a beautiful temple located in Lake Oswego, Oregon. It is conveniently located near the highway and is easily accessible yet secluded.</p>        
+</section>
+        <section id="map">
+            <iframe id="gMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.2046876540276!2d-122.74446964956222!3d45.42537504395281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950ccd9dd03289%3A0x2a2651c83858de2a!2sPortland%20Oregon%20Temple!5e0!3m2!1sen!2sus!4v1670657934981!5m2!1sen!2sus" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="weather"><h2>Weather:</h2>
+            <p>Portland, OR</p> 
+            <p><span id="temp"></span> &#8457; </p>
+            <p>Wind: <span id="wind"></span> mph</p> 
+            <p>Feels Like: <span id="windchill"></span><span id="windDegree"></span></p>
+            
+        </section>
+        <section id="contact">
+<h2>Contact:</h2>
+<p>Feel Free to Contact Us At:</p>
+<p>Phone: 360-808-8395</p>
+<p>Email: templeinnsuites@lds.com</p>
+        </section>
+
+    </main>
+    <footer>
+        <section id="about">
+            <h3>Contact:</h3>
+<p>P: 360-808-8395</p>
+<p>E: templeinnsuites@lds.com</p>
+        </section>
+        <section id="footMap">
+            <iframe id="footGMap"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284754!2d-77.0977204853698!3d38.98325594948504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1670658768524!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </footer>
+</div>
+<script src="js/main.js"></script>
+<script src="js/weather.js"></script>
+</body>
+</html>
