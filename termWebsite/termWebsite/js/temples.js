@@ -8,88 +8,93 @@ async function getData (requestURL) {
     const response = await fetch(requestURL);
         if (response.ok){
             const data = await response.json();
-            const businesses = data['businesses'];
-            businesses.forEach(business => {
-                displayCards(business);
+            const temples = data['temples'];
+            temples.forEach(temple => {
+                displayCards(temple);
             });
             list.addEventListener('click', () => {
                 table.innerHTML='';
                 cards.innerHTML='';
-                businesses.forEach(business =>{
-                    displayTable(business);
+                temples.forEach(temple =>{
+                    displayTable(temple);
                 });
             });
             grid.addEventListener('click',()=>{
                 table.innerHTML='';
                 cards.innerHTML='';
-                businesses.forEach(business => {
-                    displayCards(business);
+                temples.forEach(temple => {
+                    displayCards(temple);
                 });
             });
         }
 }
 getData(requestURL);
-function displayCards(business) {
+function displayCards(temple) {
     let card = document.createElement('section');
 
     let image = document.createElement('img');
     image.setAttribute('src', business.image);
-    image.setAttribute('alt', '${business.name} image');
+    image.setAttribute('alt', '${temple.name} image');
     card.appendChild(image);
 
     let h2 = document.createElement('h2');
-    h2.textContent= business.name;
+    h2.textContent= temple.name;
     card.appendChild(h2);
 
     let address = document.createElement('p');
-    address.textContent=business.address;
+    address.textContent=temple.address;
     card.appendChild(address);
 
     let phone = document.createElement('p');
-    phone.textContent = business.phone;
+    phone.textContent = temple.phone;
     card.appendChild(phone);
 
-    let website = document.createElement('a');
-    website.setAttribute('href',business.website);
-    website.textContent = 'Website';
-    card.appendChild(website);
+   let services = document.createElement('p');
+   services.textContent = temple.services;
+   card.appendChild(services);
+
+   let history = document.createElement('p');
+   history.textContent = temple.history;
+   card.appendChild(history);
+
+   let closure = document.createElement('p');
+   closure.textContent = temple.closure;
+   card.appendChild(closure);
 
     document.querySelector('div.cards').appendChild(card);
 }
 
-function displayTable (business) {
+function displayTable (temple) {
     let tableRow = document.createElement('tr');
 
     let name = document.createElement('td');
-    name.textContent = business.name;
+    name.textContent = temple.name;
     tableRow.appendChild(name);
 
    let address = document.createElement('td');
-   address.textContent=business.address;
+   address.textContent=temple.address;
    tableRow.appendChild(address);
 
    let phone = document.createElement('td');
-   phone.textContent = business.phone;
+   phone.textContent = temple.phone;
    tableRow.appendChild(phone);
 
-   let website = document.createElement('td');
-   website.innerHTML = `<a href="${business.website}">Website</a>`;
+   let services = document.createElement('td');
+   services.textContent = temple.services;
+   tableRow.appendChild(services);
+
+   let history = document.createElement('td');
+   history.textContent = temple.history;
+   tableRow.appendChild(history);
+
+   let closure = document.createElement('td');
+   closure.textContent = temple.clsoure;
+   tableRow.appendChild(closure);
 
    document.querySelector('table').appendChild(tableRow);
 
 
 
 }
-let lastVisited = window.localStorage.getItem("lastVisited");
-let lastVisitedDisplay = document.querySelector("#lastVisited");
-if (lastVisited) {
-    let days = Math.round((Date.now() - lastVisited));
-    lastVisitedDisplay.textContent = `You visited this page ${days} days ago.`;
-} else {
-    lastVisitedDisplay.textContent = `You visited this page for the first time today.`;
-}const today1 = new Date();
 
-if (today1.getDay() == 1 || today1.getDay()==2 ){
-  document.querySelector("header p").style.display='block';
-}
 
