@@ -67,6 +67,7 @@ nav{
     
     nav ul li a:hover{
         background-color: #c79a00;
+        transition-duration: 1000ms;
     }
 nav ul {display: none;}
 nav ul.open {display:block;}
@@ -98,7 +99,8 @@ height:fit-content;}
     font-weight: 700;}
     #button:hover{background-color: #ffca28;
     text-transform:uppercase;
-color:black;}
+color:black;
+transition-duration: 1000ms;}
 
 #services{grid-row:2;
 grid-column:1/4;
@@ -182,7 +184,8 @@ border-radius: 10px;
     background-color:white;
   }
   .icons button:hover{background-color:#ffca28;
-cursor: pointer;}
+cursor: pointer;
+}
 
 .icons img{width:50px;}
 
@@ -300,6 +303,42 @@ label, textarea, select{
     background-color:rgb(241, 233, 224);
     border-radius:10px;
 }
+/*Services*/
+#receptionButton{grid-row:1;
+    grid-column:1/4;
+    justify-content: center;
+    align-items: center;
+    background-color: #b71c1c;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+max-width:fit-content;}
+    #receptionButton:hover{background-color: #ffca28;
+    text-transform:uppercase;
+color:black;
+transition-duration: 1000ms;}
+#missionaryButton{grid-row:2;
+    grid-column:1/4;
+    justify-content: center;
+    align-items: center;
+    background-color: #b71c1c;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    max-width:fit-content;
+}
+    #missionaryButton:hover{background-color: #ffca28;
+    text-transform:uppercase;
+color:black;
+transition-duration: 1000ms;}
 /*footer*/
 footer{display:grid;
     grid-template-columns: 100px, 100px;
