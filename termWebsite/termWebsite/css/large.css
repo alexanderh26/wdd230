@@ -79,6 +79,14 @@ grid-row:3;}
 #dryClean{display:block;
 grid-column:1;
 grid-row:3; margin-top:60px;}
+/*reception*/
+.reception{height:500px;}
+.reception h3{grid-row:2;}
+.reception ul{grid-row:3;}
+.reception img{height:400px;}
+#cateringImg{display:block;
+grid-column:5;}
+
 
     
     

@@ -75,6 +75,20 @@ border:1px solid;}
   .laundry{grid-column: 3;grid-row:4; margin-top:-200px;}
   #missionaries{display:none;}
   #dryClean{display:none;}
+  /*reception*/
+  .reception{display:grid;
+  grid-template-columns: 200px 200px 200px;
+grid-template-rows: 100px 100px 200px; 
+height:300px;}
+.reception ul{grid-column:2/4; grid-row:2;height:fit-content;}
+#receptionP1{grid-row:2;}
+.reception h3{grid-column: 2; grid-row:1; padding-left:10px;}
+.reception img{height: 300px;}
+
+#weddingImg{display:block;
+grid-column:4;}
+
+
  
 }
 
