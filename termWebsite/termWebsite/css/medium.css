@@ -16,7 +16,7 @@
     border-radius:10px;}
     #footMap{grid-column: 2;
         grid-row:1;
-    margin-left: 400px;}
+    margin-left: 300px;}
 #description-small{font-size: 15pt;}
 /*temple*/
 .templeList{height: fit-content;
@@ -54,5 +54,28 @@
 /*services*/
 .servicesMain p{display:block;}
 .servicesMain ul{display:block;}
+/*missionary*/
+.missionary{display:grid;
+  grid-template-columns: 250px 150px ;
+  grid-template-rows:150px 200px 350px;
+height:fit-content;
+width:fit-content;
+} 
+.missionary ul{grid-row:3; grid-column: 1;
+  height:fit-content;
+  padding:2px;
+  border:1px solid;}
+.missionary img{display:block;
+  height:250px;
+border:1px solid;}
+  .kitchen{grid-column:3;}
+  .shuttle{grid-column:3; 
+    grid-row:3;
+    margin-top:-100px;}
+  .laundry{grid-column: 3;grid-row:4; margin-top:-200px;}
+  #missionaries{display:none;}
+  #dryClean{display:none;}
+ 
 }
-    
+
+ 

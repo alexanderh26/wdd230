@@ -66,6 +66,21 @@ grid-template-columns:repeat 3 1fr;}
       font-weight: 500;
       background-color: whitesmoke;
     }
+    /*missionary*/
+    .missionary ul{grid-column: 2;
+    grid-row:2;}
+    .missionary img{height:300px;}
+    .kitchen{margin:5px;}
+    .laundry{grid-row:3; grid-column:3;margin:5px;margin-top:0;margin-left:90px;}
+    .shuttle{grid-column:4; grid-row:1; margin:5px;margin-top:5px;}
+    #missionaries{display:block;
+    grid-column:4;
+grid-row:3;}
+#dryClean{display:block;
+grid-column:1;
+grid-row:3; margin-top:60px;}
+
+    
     
 }
 

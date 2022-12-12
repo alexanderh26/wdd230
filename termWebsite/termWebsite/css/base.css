@@ -353,7 +353,29 @@ transition-duration: 1000ms;}
 color:black;
 transition-duration: 1000ms;}
 
-
+/*mission*/
+.missionary{display:grid;
+padding:20px;
+grid-template-columns: 200px 200px 50px;
+grid-template-rows:150px 150px 150px;} 
+.missionary h2{grid-column:1;
+grid-row:1;
+color:white;
+background-color:#b71c1c;
+padding:5px;
+width:fit-content;
+height:fit-content;
+font-weight:bolder;}
+.missionary p{grid-column: 1;
+grid-row: 2;
+height:fit-content;
+}
+.missionary ul{grid-column:2;
+grid-row:2;
+height:fit-content;
+padding:2px;
+border:1px solid;}
+.missionary img{display:none;}  
 /*footer*/
 footer{display:grid;
     grid-template-columns: 1fr 1fr;
