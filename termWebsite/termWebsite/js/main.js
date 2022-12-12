@@ -14,7 +14,11 @@ if (lastVisited) {
 } else {
     lastVisitedDisplay.textContent = `You visited this page for the first time today.`;
 }
+const today1 = new Date();
 
+if (today1.getDay() == 1 || today1.getDay()==2 ){
+  document.querySelector("header p").style.display='block';
+}
 
 const today= new Date();
 
@@ -43,5 +47,5 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
   
 submit = document.querySelector('#submit');
 submit.addEventListener('click', () => {
-    window.location.href="/thanks.html";
+    window.location.href="thanks.html";
 });
