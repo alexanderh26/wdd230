@@ -2,7 +2,7 @@
     .title{display:block;
         grid-column:2;
     }
-    #button{grid-column:1/3;}
+    .home button{grid-column:1/3;}
     #contact{grid-column:2;}
     #services{grid-column:1/3;}
     #services p{font-size:14pt;}
@@ -19,8 +19,8 @@
     margin-left: 400px;}
 #description-small{font-size: 15pt;}
 /*temple*/
-.templeList{height: 1200px;
-    width: 100%;
+.templeList{height: fit-content;
+    width: fit-content;
     margin: auto;
 }
   .cards {
@@ -51,6 +51,8 @@
   font-weight: 500;
   background-color: whitesmoke;
 }
-
+/*services*/
+.servicesMain p{display:block;}
+.servicesMain ul{display:block;}
 }
     

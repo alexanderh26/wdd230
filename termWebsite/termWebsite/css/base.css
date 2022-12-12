@@ -77,15 +77,18 @@ nav ul.open {display:block;}
 #hamburgerButton.open span:nth-child(2){display: block;}
 
 /*index body*/
-main{display:grid;
+.home{display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:10px;
     grid-template-rows: repeat(4,10rem);
-    padding:.5rem;
-height:fit-content;}
+    padding:10px;
+    margin:10px;
+    width:fit-content;
+    height:fit-content;
+}
 #templeImgs{display:none;}
 
-#button{grid-row:1;
+.home button{grid-row:1;
     grid-column:1/4;
     justify-content: center;
     align-items: center;
@@ -96,8 +99,10 @@ height:fit-content;}
     border-radius: 10px;
     text-align: center;
     font-size: 1.5em;
-    font-weight: 700;}
-    #button:hover{background-color: #ffca28;
+    font-weight: 700;
+height:fit-content;
+width:fit-content;}
+    .home button:hover{background-color: #ffca28;
     text-transform:uppercase;
 color:black;
 transition-duration: 1000ms;}
@@ -133,15 +138,18 @@ border-radius: 10px;
 }
 
 /*temple*/
-.templeList{height: 4500px;
-    width: 100%;
+.templeList{height:fit-content;
+    width: fit-content;
     margin: auto;
+    
 }
   .cards {
+    padding:10px;
     display:flex;
     flex-direction:column;
     text-align: center;
     justify-content: center;
+
     
     
   }
@@ -304,8 +312,13 @@ label, textarea, select{
     border-radius:10px;
 }
 /*Services*/
-#receptionButton{grid-row:1;
-    grid-column:1/4;
+.servicesMain{display:flex;
+flex-direction:column;
+margin:10px;}
+.servicesMain p{display:none;}
+.servicesMain ul{display:none;}
+
+#receptionButton{
     justify-content: center;
     align-items: center;
     background-color: #b71c1c;
@@ -316,13 +329,13 @@ label, textarea, select{
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
+    margin:10px;
 max-width:fit-content;}
     #receptionButton:hover{background-color: #ffca28;
     text-transform:uppercase;
 color:black;
 transition-duration: 1000ms;}
-#missionaryButton{grid-row:2;
-    grid-column:1/4;
+#missionaryButton{
     justify-content: center;
     align-items: center;
     background-color: #b71c1c;
@@ -339,11 +352,14 @@ transition-duration: 1000ms;}
     text-transform:uppercase;
 color:black;
 transition-duration: 1000ms;}
+
+
 /*footer*/
 footer{display:grid;
-    grid-template-columns: 100px, 100px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows:50px, 50px;
     background-color: #c62020;
+    width: fit-content;
     
     
 }
