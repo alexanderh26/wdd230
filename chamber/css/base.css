@@ -11,7 +11,7 @@ h1 {margin: 0 2 vw;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet
     
     
 }
-logo img{
+.logo img{
     display:flex;
     max-width:75%;}
 header img{

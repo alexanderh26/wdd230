@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="description" content="Temple Inn and Suites booking website home page ">
+    <meta name ="description" content="Temple Inn and Suites booking website temple page ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -29,9 +29,9 @@
         <nav>
             <button id="hamburgerButton"><span>&#9776;</span> <span id="x">x</span></button>
             <ul id="primaryNav">
-                <li class="active"><a href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/index.html">Home</a></li>
+                <li><a href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/index.html">Home</a></li>
                 <li> <a href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/temple.html">Temple</a></li>
-                <li> <a href="">Reservation</a></li>
+                <li class="active"> <a href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/reservation.html">Reservation</a></li>
                 <li> <a href="">Services</a></li>
             </ul>
         </nav>
@@ -45,42 +45,59 @@
         </div>
         <div class="date"></div>
     </header>
-    <main class="home">
+    <main class="reservation">
+        <div class="form">
+            <h1>Reserve a Room Today</h1>
+        <form action="thanks.html" method="GET" autocomplete="on">
+                <label for="name">
+                    Name:
+                    <input type="text" id="name" name="name" required>
+                </label>
         
-            <a id="button" href="https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/reservation.html"> <button id="button">Reserve a Room Today!</button></a>
-           
-            
-        
-        <section id="templeImgs">
-            <div id="temple1">
+                <label for="email">
+                    Email:
+                    <input type="email" id="email" name="email" required>
+                </label>
+                <label for="phone">Phone:
 
-            </div>
-            <div id="temple2">
+                <input type="tel" id="phone" name="phone"
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                 required></label>
+
+                <small>Format: 123-456-7890</small>
+                <label for="home">
+                    Home Country:
+                    <input type="text" id="home" name="home">
+                </label>
+        
+                <label for="Location">
+                    Reservation Location:
+                    <input type="text" name="location" id="location" required>
+                </label>
+                <label for="roomNumber">
+                    Number of Rooms Needed:
+                    <input type="number" name="roomNumber" id="roomNumber" min="0" max="50">
+                </label>
+                <label for ="dateIn">
+                    Check In Date:
+                    <input type="date" name="dateIn" id="dateIn" required>
+                </label>
+                <label for="dateOut">
+                    Check Out Date:
+                    <input type="date" name="dateOut" id="dateOut" required>
+
+                </label>
+                <label for="special">
+                    Accomodations Needed:
+                    <textarea name="special" id="special" cols="30" rows="10"></textarea>
+                </label>
+        
                 
-            </div>
-        </section>
-        <section id="services">
-<h2>The Portland Temple:</h2>
-<p id="description-large"> The following is from The Church of Jesus Christ of Latterday Saints: Rising elegantly among towering Douglas-fir trees, the six spires of the marble-clad Portland Oregon Temple create a beautiful sight for motorists traveling Oregon's I-5, situated about 8 miles south of downtown Portland in Lake Oswego. On the east side of the temple is a serene reflection pool sitting at the base of the main spire. A fountain on the west side replenishes an infinity pool. Visitors are welcome to walk among the gorgeous gardens that decorate the temple grounds and to obtain additional information at the public visitors' center that features films, displays, multimedia presentations, and a stunning reproduction of Thorvaldsen's Christus statue. </p>
-<p id="description-small"> The Portland Oregon Temple is a beautiful temple located in Lake Oswego, Oregon. It is conveniently located near the highway and is easily accessible yet secluded.</p>        
-</section>
-        <section id="map">
-            <iframe id="gMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.2046876540276!2d-122.74446964956222!3d45.42537504395281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950ccd9dd03289%3A0x2a2651c83858de2a!2sPortland%20Oregon%20Temple!5e0!3m2!1sen!2sus!4v1670657934981!5m2!1sen!2sus" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section class="weather"><h2>Weather:</h2>
-            <p>Portland, OR</p> 
-            <p><span id="temp"></span> &#8457; </p>
-            <p>Wind: <span id="wind"></span> mph</p> 
-            <p>Feels Like: <span id="windchill"></span><span id="windDegree"></span></p>
-            
-        </section>
-        <section id="contact">
-<h2>Contact:</h2>
-<p>Feel Free to Contact Us At:</p>
-<p>Phone: 360-808-8395</p>
-<p>Email: templeinnsuites@lds.com</p>
-        </section>
-
+                <input type="submit" id="submit" value="Submit">
+        
+            </form>
+        </div>
+        
     </main>
     <footer>
         <section id="about">
@@ -97,6 +114,6 @@
     </footer>
 </div>
 <script src="js/main.js"></script>
-<script src="js/weather.js"></script>
+
 </body>
 </html>

@@ -14,10 +14,7 @@ if (lastVisited) {
 } else {
     lastVisitedDisplay.textContent = `You visited this page for the first time today.`;
 }
-submit = document.querySelector('#submit');
-submit.addEventListener('click', () => {
-    window.location.href="thanks.html";
-});
+
 
 const today= new Date();
 
@@ -39,3 +36,12 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+
+
+    
+  
+submit = document.querySelector('#submit');
+submit.addEventListener('click', () => {
+    window.location.href="/thanks.html";
+});

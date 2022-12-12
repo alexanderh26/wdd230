@@ -45,6 +45,27 @@ grid-template-columns:repeat 3 1fr;}
     #footMap{grid-column: 2;
         grid-row:1;
     margin-left: 600px;}
+
+    /*reservation*/
+    label, textarea, select{
+        display: inline-block;
+        
+        clear: left;
+        width: 500px;
+        text-align: left;
+    }
+    .form form input, .form textarea {
+      font-size: 1em;
+      width: 500px;
+      height: 30px;
+      padding: 10px;
+      margin: 10px auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      
+      font-weight: 500;
+      background-color: whitesmoke;
+    }
     
 }
 

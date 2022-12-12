@@ -31,6 +31,26 @@
     
     
   }
+  /*reservation*/
+  label, textarea, select{
+    display: inline-block;
+    
+    clear: left;
+    width: 400px;
+    text-align: left;
+}
+.form form input, .form textarea {
+  font-size: 1em;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+  font-weight: 500;
+  background-color: whitesmoke;
+}
 
 }
     
