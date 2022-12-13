@@ -1,3 +1,14 @@
+const LIKES_KEY = "temple-likes";
+
+function initTempleLikes(){
+    let likes_string = localStorage.getItem(LIKES_KEY);
+    if (likes_string==null){
+        likes_string="[]";
+        localStorage.setItem(LIKES_KEY, likes_string);
+    }
+}
+
+
 const requestURL = 'https://alexanderh26.github.io/wdd230/termWebsite/termWebsite/temples.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
@@ -74,8 +85,59 @@ card.appendChild(closureTitle);
    closure.textContent = temple.closure;
    card.appendChild(closure);
 
+   let liked = document.createElement("p");
+   liked.innerHTML=`<input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);"> Like This Temple!`;
+   card.appendChild(liked);
+
     document.querySelector('div.cards').appendChild(card);
 }
+
+function likeTemple(item){
+    let likes_string = localStorage.getItem(LIKES_KEY);
+    let likeslist = JSON.parse(likes_string);
+    if (item.checked){
+        if (!likeslist.includes(item.id)){
+            likeslist.push(item.id);
+        }
+    }
+    else{
+        if (likeslist.includes(item.id)){
+            likeslist.splice(likeslist.indexOf(item.id), 1);
+        }
+    }
+    localStorage.setItem(LIKES_KEY, JSON.stringify(likeslist));
+}
+
+// This function checks an individual box for a like
+function displayLike(item){
+    let obj = document.getElementById(item);
+    obj.checked = true;
+}
+
+
+
+// Call the init function when the page loads
+initTempleLikes();
+
+// Fetch the temple data and display the cards,
+// Then display the likes after the cards are built
+fetch(requestURL)
+        .then((response) => {            
+            return response.json();
+        })
+        .then((jsonObject) => {          
+          let temples = jsonObject['temples'];
+            // Upon page load, display the temples
+            temples.forEach(displayTemple);
+        })
+        .then(() => {
+            // Turn the string value from local storage into a Java array
+            let likes_string = localStorage.getItem(LIKES_KEY);
+            let likeslist = JSON.parse(likes_string);            
+
+            // Set the likes
+            likeslist.forEach(displayLike);
+        });
 
 
 
