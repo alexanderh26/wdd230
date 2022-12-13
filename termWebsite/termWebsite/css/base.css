@@ -376,6 +376,18 @@ height:fit-content;
 padding:2px;
 border:1px solid;font-weight: bold;}
 .missionary img{display:none;}  
+#returnButtonM{ justify-content: center;
+    align-items: center;
+    background-color: #b71c1c;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    max-width:fit-content;
+height:fit-content; grid-row:4;}
 /*reception*/
 .reception{display:grid;
 padding:20px; height:fit-content;}
@@ -391,6 +403,18 @@ padding:20px; height:fit-content;}
 #weddingImg{display:none;}
 #cateringImg{display:none;}
 #kitchenImg{display:none;}
+#returnButton{   justify-content: center;
+    align-items: center;
+    background-color: #b71c1c;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    max-width:fit-content;
+height:fit-content;}
 /*footer*/
 footer{display:grid;
     grid-template-columns: 1fr 1fr;
