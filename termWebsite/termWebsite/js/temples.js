@@ -121,23 +121,14 @@ initTempleLikes();
 
 // Fetch the temple data and display the cards,
 // Then display the likes after the cards are built
-fetch(requestURL)
-        .then((response) => {            
-            return response.json();
-        })
-        .then((jsonObject) => {          
-          let temples = jsonObject['temples'];
-            // Upon page load, display the temples
-            temples.forEach(displayTemple);
-        })
-        .then(() => {
+
             // Turn the string value from local storage into a Java array
             let likes_string = localStorage.getItem(LIKES_KEY);
             let likeslist = JSON.parse(likes_string);            
 
             // Set the likes
             likeslist.forEach(displayLike);
-        });
+        
 
 
 
