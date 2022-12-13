@@ -119,8 +119,6 @@ function displayLike(item){
 // Call the init function when the page loads
 initTempleLikes();
 
-// Fetch the temple data and display the cards,
-// Then display the likes after the cards are built
 
             // Turn the string value from local storage into a Java array
             let likes_string = localStorage.getItem(LIKES_KEY);
